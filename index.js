@@ -102,5 +102,5 @@ function setDockerEnvVars(system_env, workflow_env) {
     }
     return env_vars.join(' ')
 }
-    
+
 run();
