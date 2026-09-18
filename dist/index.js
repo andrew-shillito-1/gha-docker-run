@@ -32758,6 +32758,8 @@ function setDockerEnvVars(system_env, workflow_env) {
     }
     return env_vars.join(' ')
 }
-    
+
+console.log("No-op change for testing the new .github/workflows/smoke.yml");
+
 run();
 
